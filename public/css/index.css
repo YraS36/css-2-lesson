@@ -22,9 +22,9 @@ section.green {
   background-color: rgb(15, 182, 71);
   color: white;
 }
-.card-body ul > li {
+/* .card-body ul > li {
   background-color: red;
-}
+} */
 .header-button + span {
   background-color: red;
 }
