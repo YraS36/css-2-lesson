@@ -14,17 +14,19 @@ h1 {
 #blue {
   color: blue;
 }
-div + p {
+.box {
   background-color: green;
-  color: red;
 }
-section.green {
+div + p {
+  background-color: red;
+}
+section .green {
   background-color: rgb(15, 182, 71);
   color: white;
 }
-/* .card-body ul > li {
-  background-color: red;
-} */
+.card-body #tag > li {
+  background-color: rgb(126, 25, 167);
+}
 .header-button + span {
   background-color: red;
 }
@@ -56,7 +58,7 @@ section.green {
 .five-task ul:last-child > li:last-child {
   color: white;
 }
-.only-child-task div {
+.only-child-task div:only-child {
   color: red;
 }
 .seven-task p:first-of-type {
@@ -72,16 +74,16 @@ section.green {
   background-color: rgb(201, 196, 189);
   color: white;
 }
-li[value] {
+.lesson-three-task-two li[value] {
   color: yellow;
 }
-li[value='3'] {
+.lesson-three-task-three li[value='3'] {
   background-color: red;
 }
-button[class~='primary'] {
+.lesson-three-task-four button[class~='primary'] {
   background-color: blue;
 }
-button[class|='secondary'] {
+.lesson-three-task-five button[class|='secondary'] {
   background-color: red;
 }
 .lesson-three-task-six li[class^='b'] {
